@@ -113,11 +113,10 @@ body{
   }
 }
 
-
 #top1 {
 	width: auto;
 	height: auto;
-	padding: 100px 0;
+	padding: 100px;
 	padding-left: 20px;
 	color: white;
 	background: url("assets/aboutme.jpg") no-repeat bottom center scroll;
@@ -132,7 +131,7 @@ body{
 #top2 {
 	width: auto;
 	height: auto;
-	padding: 100px 0;
+	padding: 100px;
 	padding-left: 20px;
 	color: black;
 	background: url("assets/4.jpg") no-repeat bottom center scroll;
@@ -147,7 +146,7 @@ body{
 #top3 {
 	width: auto;
 	height: auto;
-	padding: 100px 0;
+	padding: 100px;
 	padding-left: 20px;
 	color: black;
 	background: url("assets/4.jpg") no-repeat bottom center scroll;
@@ -159,11 +158,15 @@ body{
 	margin-left: 200px;
 }
 
+.marg {
+	margin-left: -20px;
+	padding-left: -20px;
+}
+
 #aboutme {
 	height: 100%;
-	width: 100%
-	border-radius: 0px 1px;
-	background: url("assets/intro.jpg");
+	width: 100%;
+	background: url("assets/intro.jpg") no-repeat  center scroll;
 	background-size: cover;
 	margin-left: 200px;
 	color: white;
@@ -179,7 +182,7 @@ body{
 
 #passion {
 	height: auto;
-	width: 100%
+	width: 100%;
 	border-radius: 0px 1px;
 	margin-left: 200px;
 	padding-top: 50px;
@@ -193,23 +196,17 @@ body{
 	margin-left: 200px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: url("assets/intro.jpg");	
+	background: url("assets/intro.jpg") scroll;
+
 }
 
-#world {
-	width: 200px;
-    height: 120px;
-}
 
 #education {
-	height: 100%;
-	width: 100%;
-	border-radius: 0px 1px;
+	height: auto;
+	width: auto;
 	background: url("assets/2.jpg") no-repeat  center scroll;
-	margin-left: 200px;
 	color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin-left: 200px;
 }
 
 #education #space {
@@ -221,24 +218,19 @@ body{
 
 #experience {
 	height: auto;
-	width: 100%;
-	border-radius: 0px 1px;
+	width: auto;
 	background: url("assets/1.jpg") scroll;
 	margin-left: 200px;
-	padding-top: : 50px;
 	color: white;
 }
 
-#experience #space {
-	border: 2px solid red;
-    border-radius: 25px;
+#experience #exper {
 	background-color: transparent;
 }
 
 #skills {
-	height: 500px;
-	width: 100%;
-	border-radius: 0px 1px;
+	height: auto;
+	width: auto;
 	background: url("assets/3.jpg") scroll;
 	margin-left: 200px;
 	color: white;
@@ -248,6 +240,7 @@ body{
 	font-style: italic;
 	font-size: 50px;
 	color: white;
+	padding-top: 50px;
 }
 
 #parents {
@@ -261,15 +254,13 @@ body{
 #siblings {
 	height: 500px;
 	width: 100%
-	border-radius: 0px 1px;
 	background-color: red;
 	margin-left: 200px;
 	
 }
 #friends {
-	height: 500px;		
-	width: 100%
-	border-radius: 0px 1px;
+	height: auto;		
+	width: auto;
 	background-color: red;
 	margin-left: 200px;
 }
