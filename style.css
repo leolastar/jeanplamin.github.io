@@ -1,6 +1,6 @@
 html, body {
 	width: 100%
-	height: 100%;
+	height: auto;
 }
 
 body{
@@ -117,14 +117,13 @@ body{
 	width: auto;
 	height: auto;
 	padding: 100px;
-	padding-left: 20px;
 	color: white;
-	background: url("assets/aboutme.jpg") no-repeat bottom center scroll;
-	background-color: black;
+	background: url("assets/aboutme.jpg") center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	text-align: center;
 	margin-left: 200px;
 }
 
@@ -134,7 +133,7 @@ body{
 	padding: 100px;
 	padding-left: 20px;
 	color: black;
-	background: url("assets/4.jpg") no-repeat bottom center scroll;
+	background: url("assets/4.jpg") scroll;
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -156,11 +155,6 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 	margin-left: 200px;
-}
-
-.marg {
-	margin-left: -20px;
-	padding-left: -20px;
 }
 
 #aboutme {
@@ -200,11 +194,10 @@ body{
 
 }
 
-
 #education {
 	height: auto;
 	width: auto;
-	background: url("assets/2.jpg") no-repeat  center scroll;
+	background: url("assets/2.jpg") scroll;
 	color: white;
 	margin-left: 200px;
 }
@@ -234,6 +227,49 @@ body{
 	background: url("assets/3.jpg") scroll;
 	margin-left: 200px;
 	color: white;
+	padding-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: grey;
+    border-radius: 25px;
+}
+.my-bar1 {
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    border-radius: 25px;
+}
+
+.my-bar2 {
+	width: 80%;
+    height: 30px;
+    background-color: navy;
+    border-radius: 25px;
+}
+
+.my-bar3 {
+	width: 50%;
+    height: 30px;
+    background-color: purple;
+    border-radius: 25px;
+}
+
+.my-bar4 {
+	width: 30%;
+    height: 30px;
+    background-color: red;
+    border-radius: 25px;
+}
+
+#projects {
+	height: 700;
+	width: auto;
+	background: url("assets/12.jpg") scroll;
+	background-color: black;
+	margin-left: 200px;
+	color: black;
 }
 
 .head_t {
@@ -244,7 +280,7 @@ body{
 }
 
 #parents {
-	height: 500px;
+	height: auto;
 	width: 100%;
 	border-radius: 0px 1px;
 	background-color: red;
