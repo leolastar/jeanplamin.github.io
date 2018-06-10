@@ -1,5 +1,5 @@
 html, body {
-	width: 100%
+	width: 100%;
 	height: auto;
 }
 
@@ -16,7 +16,7 @@ body{
 }
 
 #mainNav {
-	width: 200px;
+    width: 200px;
     height: 100%;
     position: fixed;
     float: left;
