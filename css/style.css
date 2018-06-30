@@ -246,7 +246,6 @@ html, body {
 	color: white;
 }
 
-
 /* start slide show css */
 
 * {box-sizing:border-box}
@@ -259,8 +258,9 @@ html, body {
 }
 
 /* Hide the images by default */
-.mySlides {
-    display: none;
+.mySlides1 .mySlides2 .mySlides3 .mySlides4 .mySlides5 .mySlides6 .mySlides7 .mySlides8 .mySlides9 .mySlides10 {
+	width: 100px;
+	height: 100px;
 }
 
 /* Next & previous buttons */
@@ -445,8 +445,3 @@ html, body {
 		overflow: visible;
 	}
 }
-
-
-
-
-
