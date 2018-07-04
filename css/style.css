@@ -99,7 +99,7 @@ html, body {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	color: white;
-	background: url("../assets/aboutme.jpg") scroll;
+	background: url("../assets/1.jpg") scroll;
 	text-align: center;
 }
 
@@ -109,7 +109,7 @@ html, body {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	color: black;
-	background: url("../assets/4.jpg") scroll;
+	background: url("../assets/2.jpg") scroll;
 	background-size: cover;
 }
 
@@ -119,7 +119,7 @@ html, body {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	color: black;
-	background: url("../assets/5.jpeg") scroll;
+	background: url("../assets/3.jpeg") scroll;
 	background-size: cover;
 	color: azure;
 }
@@ -127,7 +127,7 @@ html, body {
 #aboutme {
 	height: 100%;
 	width: 100%;
-	background: url("../assets/intro.jpg") no-repeat  center scroll;
+	background: url("../assets/4.jpg") no-repeat  center scroll;
 	background-size: cover;
 	color: white;
 	padding-top: 50px;
@@ -154,7 +154,7 @@ html, body {
 	border-radius: 0px 1px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: url("../assets/22.jpeg") no-repeat  center scroll;
+	background: url("../assets/5.jpg") no-repeat  center scroll;
 	background-size: cover;
 }
 
@@ -167,7 +167,7 @@ html, body {
 #education {
 	height: auto;
 	width: 100%;
-	background: url("../assets/2.jpg") scroll;
+	background: url("../assets/6.jpg") scroll;
 	color: white;
 	padding-bottom: 50px;
 }
@@ -184,7 +184,7 @@ html, body {
 #experience {
 	height: auto;
 	width: auto;
-	background: url("../assets/23.jpg") no-repeat center center fixed;
+	background: url("../assets/7.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -200,7 +200,7 @@ html, body {
 #skills {
 	height: auto;
 	width: auto;
-	background: url("../assets/20.jpeg") no-repeat center center fixed;
+	background: url("../assets/8.jpeg") no-repeat center center fixed;
 	background-size: cover; 
 	color: black;
 	padding-bottom: 20px;
@@ -243,7 +243,7 @@ html, body {
 #projects {
 	height: 700;
 	width: auto;
-	background: url("../assets/12.jpg") no-repeat center center fixed;
+	background: url("../assets/9.jpg") no-repeat center center fixed;
 	background-size: cover;
 	color: black;
 	padding-top: 50px;
@@ -260,11 +260,11 @@ html, body {
 	height: auto;
 	width: 100%;
 	border-radius: 0px 1px;
-	background: url("../assets/16.jpg") no-repeat center center fixed;;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url("../assets/10.jpg") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: white;
@@ -376,11 +376,11 @@ html, body {
 	height: auto;
 	width: 100%;
 	background-color: red;	
-	background: url("../assets/13.jpg") no-repeat center center fixed;;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url("../assets/11.jpg") no-repeat center center fixed;;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: white;
@@ -389,7 +389,11 @@ html, body {
 #friends {
 	height: 1000px;		
 	width: auto;
-	background-color: yellow;
+	background: url("../assets/12.jpg") no-repeat center center fixed;;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .myFooter {
