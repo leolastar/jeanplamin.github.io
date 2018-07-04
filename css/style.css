@@ -172,10 +172,13 @@ html, body {
 	padding-bottom: 50px;
 }
 
-#education #space {
+#education .space {
 	background-color: black;
 	border: 2px solid red;
-  border-radius: 25px;
+  	border-radius: 25px;
+  	margin-bottom: 20px;
+  	padding-left: 20px 20px 20px 20px;
+  	text-align: center;
 }
 
 #experience {
@@ -257,19 +260,11 @@ html, body {
 	height: auto;
 	width: 100%;
 	border-radius: 0px 1px;
-<<<<<<< HEAD
 	background: url("../assets/16.jpg") no-repeat center center fixed;;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-=======
-	background: url("../assets/5.jpg") no-repeat center center fixed;;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
->>>>>>> 0bf5eae82148e7f8066bd79339aaa3a1dbdf5b6d
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: white;
