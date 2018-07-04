@@ -7,15 +7,15 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin-left:auto;
-    margin-right:auto;
+  margin-right:auto;
 }
 
 #mainNav {
 	width: 200px;
-    height: 100%;
-    position: fixed;
-    background-color: blue;
-    float: left;
+	height: 100%;
+	position: fixed;
+	background-color: blue;
+	float: left;
 }
 
 #nav-def {
@@ -55,18 +55,22 @@ html, body {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
-  }
+	}
+	
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
-  }
+	}
+	
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
-  }
+	}
+	
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
-  }
+	}
+	
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
@@ -75,7 +79,8 @@ html, body {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
-  }
+	}
+	
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #F05F40;
@@ -85,13 +90,14 @@ html, body {
 #main_content {
 	height: auto;
 	width: auto;
-	padding-left: 100px;
+	padding-left: 150px;
 }
 
 #top1 {
 	width: auto;
 	height: auto;
-	padding: 100px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 	color: white;
 	background: url("../assets/aboutme.jpg") scroll;
 	text-align: center;
@@ -100,7 +106,8 @@ html, body {
 #top2 {
 	width: auto;
 	height: auto;
-	padding: 100px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 	color: black;
 	background: url("../assets/4.jpg") scroll;
 	background-size: cover;
@@ -109,10 +116,12 @@ html, body {
 #top3 {
 	width: auto;
 	height: auto;
-	padding: 100px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 	color: black;
-	background: url("../assets/4.jpg") scroll;
+	background: url("../assets/5.jpeg") scroll;
 	background-size: cover;
+	color: azure;
 }
 
 #aboutme {
@@ -145,7 +154,8 @@ html, body {
 	border-radius: 0px 1px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: url("../assets/intro.jpg") scroll;
+	background: url("../assets/22.jpeg") no-repeat  center scroll;
+	background-size: cover;
 }
 
 #mapdiv {
@@ -165,14 +175,18 @@ html, body {
 #education #space {
 	background-color: black;
 	border: 2px solid red;
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 #experience {
 	height: auto;
 	width: auto;
-	background: url("../assets/1.jpg") scroll;
-	color: white;
+	background: url("../assets/23.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+	color: whitesmoke;
 	padding-bottom: 50px;
 }
 
@@ -183,8 +197,9 @@ html, body {
 #skills {
 	height: auto;
 	width: auto;
-	background: url("../assets/3.jpg") scroll;
-	color: white;
+	background: url("../assets/20.jpeg") no-repeat center center fixed;
+	background-size: cover; 
+	color: black;
 	padding-bottom: 20px;
 }
 
@@ -193,6 +208,7 @@ html, body {
     background-color: grey;
     border-radius: 25px;
 }
+
 .my-bar1 {
     width: 100%;
     height: 30px;
@@ -224,9 +240,10 @@ html, body {
 #projects {
 	height: 700;
 	width: auto;
-	background: url("../assets/12.jpg") scroll;
-	background-color: black;
+	background: url("../assets/12.jpg") no-repeat center center fixed;
+	background-size: cover;
 	color: black;
+	padding-top: 50px;
 }
 
 .head_t {
@@ -240,7 +257,11 @@ html, body {
 	height: auto;
 	width: 100%;
 	border-radius: 0px 1px;
-	background: url("../assets/5.jpg") scroll;
+	background: url("../assets/16.jpg") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: white;
@@ -348,16 +369,20 @@ html, body {
 /* end slide show css */
 
 
-
-
 #siblings {
 	height: auto;
 	width: 100%;
 	background-color: red;	
-	background: url("../assets/11.jpg") scroll;
+	background: url("../assets/13.jpg") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	color: white;
 }
+
 #friends {
 	height: 1000px;		
 	width: auto;
@@ -381,14 +406,17 @@ html, body {
 	color:#d2d1d1;
 	text-decoration: none;
 }
+
 .myFooter a:hover, #myFooter a:focus{
 	text-decoration: none;
 	color:white;
 }
+
 .myFooter .social-networks{
 	text-align: center;
 	padding-bottom: 10px;
 }
+
 .myFooter .social-networks a{
     font-size: 32px;
     margin-right: 5px;
@@ -397,15 +425,19 @@ html, body {
     padding: 10px;
     transition: 0.2s;
 }
+
 .myFooter .social-networks a:hover{
 	text-decoration: none;
 }
+
 .myFooter .facebook:hover{
 	color:#0077e2;
 }
+
 .myFooter .linkedin:hover{
 	color:#ef1a1a;
 }
+
 .myFooter .twitter:hover{
 	color: #00aced;
 }
