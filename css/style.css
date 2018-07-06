@@ -387,13 +387,16 @@ html, body {
 }
 
 #friends {
-	height: 1000px;		
+	height: auto;		
 	width: auto;
 	background: url("../assets/12.jpg") no-repeat center center fixed;;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
 }
 
 .myFooter {
