@@ -451,3 +451,20 @@ html, body {
 	color: #00aced;
 }
 
+@media (max-width: 320) {
+	#mainNav {
+		width: 100px;
+	}
+	#main_content {
+		padding-left: 100px;
+	}
+}
+
+@media (min-width: 320) {
+	#mainNav {
+		width: 100px;
+	}
+	#main_content {
+		padding-left: 100px;
+	}
+}
